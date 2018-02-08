@@ -20,6 +20,7 @@
 		D59EEC37202AAB7A00891663 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		D59EEC39202AABCB00891663 /* NetstatWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetstatWrapper.swift; sourceTree = "<group>"; };
 		D59EEC3B202AC19B00891663 /* NetworkMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitorView.swift; sourceTree = "<group>"; };
+		D59EEC3D202BCF9000891663 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D5A8EB2A202598BB006C8F06 /* Network Monitor Status Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Monitor Status Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A8EB2D202598BB006C8F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5A8EB2F202598BB006C8F06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +44,7 @@
 		D5A8EB21202598BB006C8F06 = {
 			isa = PBXGroup;
 			children = (
+				D59EEC3D202BCF9000891663 /* README.md */,
 				D5A8EB2C202598BB006C8F06 /* Network Monitor Status Bar */,
 				D5A8EB2B202598BB006C8F06 /* Products */,
 			);
