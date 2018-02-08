@@ -10,9 +10,9 @@ import Foundation
 import Cocoa
 
 class NetworkMonitorView: NSView {
-    private let kilobyte:Int64 = 1024
-    private let megabyte:Int64 = 1024*1024
-    private let gigabyte:Int64 = 1024*1024*1024
+    private let kilobyte:Double = 1024
+    private let megabyte:Double = 1024*1024
+    private let gigabyte:Double = 1024*1024*1024
     
     var bytesIn:String = "0"
     var bytesOut:String = "0"
@@ -51,7 +51,7 @@ class NetworkMonitorView: NSView {
     /// - Returns: String - human readable transfer speed
     private func asHumanReadableSpeed(bytes: String) -> String {
         var readableString = "0 kb/s"
-        let iBytes:Int64 = Int64(bytes)!
+        let iBytes:Double = Double(bytes)!
         
         // Less than a kilobyte / s
         if (iBytes < kilobyte) {
@@ -59,13 +59,13 @@ class NetworkMonitorView: NSView {
         }
         // Less than a megabyte / s
         else if (iBytes < megabyte) {
-            readableString = String(iBytes / kilobyte) + " kb/s"
+            readableString = String(format: "%.1f", iBytes / kilobyte) + " kb/s"
         }
         else if (iBytes < gigabyte) {
-            readableString = String(iBytes / megabyte) + " mb/s"
+            readableString = String(format: "%.1f", iBytes / megabyte) + " mb/s"
         }
         else {
-            readableString = String(iBytes / gigabyte) + " gb/s"
+            readableString = String(format: "%.1f", iBytes / gigabyte) + " gb/s"
         }
         
         return readableString

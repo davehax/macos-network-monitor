@@ -136,7 +136,7 @@ class NetworkMonitor {
         headers = parts
         
         for i in 0..<parts.count {
-            print("\(i): \(parts[i])")
+//            print("\(i): \(parts[i])")
             if (parts[i] == "bytes") {
                 if (!indexBytesInSet) {
                     indexBytesIn = i
