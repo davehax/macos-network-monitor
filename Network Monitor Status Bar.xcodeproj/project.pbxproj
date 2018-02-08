@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D59EEC38202AAB7A00891663 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59EEC37202AAB7A00891663 /* NetworkMonitor.swift */; };
+		D59EEC3A202AABCB00891663 /* NetstatWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59EEC39202AABCB00891663 /* NetstatWrapper.swift */; };
+		D59EEC3C202AC19B00891663 /* NetworkMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59EEC3B202AC19B00891663 /* NetworkMonitorView.swift */; };
 		D5A8EB2E202598BB006C8F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A8EB2D202598BB006C8F06 /* AppDelegate.swift */; };
 		D5A8EB30202598BB006C8F06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A8EB2F202598BB006C8F06 /* ViewController.swift */; };
 		D5A8EB32202598BB006C8F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A8EB31202598BB006C8F06 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D59EEC37202AAB7A00891663 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		D59EEC39202AABCB00891663 /* NetstatWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetstatWrapper.swift; sourceTree = "<group>"; };
+		D59EEC3B202AC19B00891663 /* NetworkMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitorView.swift; sourceTree = "<group>"; };
 		D5A8EB2A202598BB006C8F06 /* Network Monitor Status Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Monitor Status Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A8EB2D202598BB006C8F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5A8EB2F202598BB006C8F06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				D5A8EB33202598BB006C8F06 /* Main.storyboard */,
 				D5A8EB36202598BB006C8F06 /* Info.plist */,
 				D5A8EB37202598BB006C8F06 /* Network_Monitor_Status_Bar.entitlements */,
+				D59EEC37202AAB7A00891663 /* NetworkMonitor.swift */,
+				D59EEC39202AABCB00891663 /* NetstatWrapper.swift */,
+				D59EEC3B202AC19B00891663 /* NetworkMonitorView.swift */,
 			);
 			path = "Network Monitor Status Bar";
 			sourceTree = "<group>";
@@ -134,7 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59EEC3A202AABCB00891663 /* NetstatWrapper.swift in Sources */,
+				D59EEC38202AAB7A00891663 /* NetworkMonitor.swift in Sources */,
 				D5A8EB30202598BB006C8F06 /* ViewController.swift in Sources */,
+				D59EEC3C202AC19B00891663 /* NetworkMonitorView.swift in Sources */,
 				D5A8EB2E202598BB006C8F06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
