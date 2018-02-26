@@ -36,6 +36,7 @@ class NetworkMonitor {
     /// - Returns: The default network interface name e.g. "en0"
     /// - Throws: NetworkMonitorError
     class func getDefaultInterfaceName() throws -> String {
+        ///TODO: Detect type of connection (wired / wireless) then return the default interface name
         let interfaceName:String = try getDefaultWifiInterfaceName()
         return interfaceName
     }
