@@ -28,6 +28,7 @@
 		D5A8EB34202598BB006C8F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5A8EB36202598BB006C8F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A8EB37202598BB006C8F06 /* Network_Monitor_Status_Bar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Network_Monitor_Status_Bar.entitlements; sourceTree = "<group>"; };
+		D5E60D5C204399F20036D524 /* appicon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = appicon.psd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		D5A8EB2C202598BB006C8F06 /* Network Monitor Status Bar */ = {
 			isa = PBXGroup;
 			children = (
+				D5E60D5B204399D20036D524 /* Additional Assets */,
 				D5A8EB2D202598BB006C8F06 /* AppDelegate.swift */,
 				D5A8EB2F202598BB006C8F06 /* ViewController.swift */,
 				D5A8EB31202598BB006C8F06 /* Assets.xcassets */,
@@ -72,6 +74,14 @@
 				D59EEC3B202AC19B00891663 /* NetworkMonitorView.swift */,
 			);
 			path = "Network Monitor Status Bar";
+			sourceTree = "<group>";
+		};
+		D5E60D5B204399D20036D524 /* Additional Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D5E60D5C204399F20036D524 /* appicon.psd */,
+			);
+			path = "Additional Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
