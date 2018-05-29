@@ -28,7 +28,6 @@ class NetworkMonitorView: NSView {
         paragraph.alignment = .right
         
         // Font display attributes
-        ///TODO: detect dark menu and invert text colour
         
         let isDark = NSAppearance.current.name.rawValue.hasPrefix("NSAppearanceNameVibrantDark")
 
